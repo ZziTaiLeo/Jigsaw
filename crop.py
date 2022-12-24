@@ -1,5 +1,4 @@
 import os 
-path_img = '/media/pc/hengda1t/hengda/e4e_eg3d/data/sister_input/work2.jpg'
 from PIL import Image
 import math
 import numpy as np
@@ -47,8 +46,6 @@ def load_img(img_path,output_path):
             result.save(os.path.join(output_path,os.path.basename(img_path)))
 def main(opts): 
     '''
-    crop函数是需要传入一个元组作为参数
-    靠改变n来实现
     '''
     input_path = opts.input_dirs
     output_path = opts.output_dirs
