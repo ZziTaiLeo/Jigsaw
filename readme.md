@@ -11,10 +11,10 @@ $ python crop.py --input_dirs /path/your/dirs_or_image_file --output_dirs /path/
 
 # the Example is as follows
 ### output_img as
- ![output](./output_img/be_cafeful.jpg)
+ ![output](./output_img/heathy.jpg)
 
 
 
 ### input_img as 
-![input](./input_img/be_cafeful.jpg)
+![input](./input_img/heathy.jpg)
 
